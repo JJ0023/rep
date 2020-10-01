@@ -1,4 +1,5 @@
-import socket                   
+import socket  
+#import Socket for TCP-IP connection 
 
 if __name__ == "__main__":
     serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
