@@ -21,3 +21,4 @@ if __name__ == "__main__":
                 break
             f.write(data)
         f.close
+        print("the program is good")
