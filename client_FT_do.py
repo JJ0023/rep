@@ -1,10 +1,14 @@
 import socket  
 #import Socket for TCP-IP connection 
 
+
+print("Multiple comment lines skipped by Bishal")
+
 if __name__ == "__main__":
     serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     host =(input("Enter server ip: "))
     port = int(input("Enter port: "))
+    print("Multiple comment lines skipped by Bishal")
 
     serversocket.connect((host, port))
     filename = "recieved"
