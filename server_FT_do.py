@@ -21,7 +21,7 @@ if __name__ == "__main__":
         buffer = f.read(1024)
     f.close()
 
-    print("Done Sending")
+    print("Done Sending", end=" - ")
     print("this code is out of league")
 
 
