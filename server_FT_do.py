@@ -20,5 +20,6 @@ if __name__ == "__main__":
         clientsocket.send(buffer)
         buffer = f.read(1024)
     f.close()
+    print("Program terminated")
 
 
